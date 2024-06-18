@@ -17,7 +17,7 @@
     in {
       sowon = pkgs.stdenv.mkDerivation {
         name = "sowon";
-	src = ./.
+	src = ./.;
 
 	buildInputs = with pkgs; [SDL2 pkg-config];
 
